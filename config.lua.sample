@@ -1,0 +1,16 @@
+-- Sample config file for Mzstorkipiwanbotbotbot.
+-- Fill this out with sensible values and rename it to "config.lua".
+-- This file is just Lua source, but it's recommended to not have code in
+-- here -- just stick to data to keep things simple.
+
+-- The name of the bot.  Unfortunately "Mzstorkipiwanbotbotbot" is
+-- too long for most IRC servers to handle, so choose something shorter.
+BOTNAME = 'funkybot'
+
+-- If there is a NickServ on the server, and it asks you to authenticate,
+-- you can specify your password here.  If not, just leave this as nil.
+PASSWORD = nil
+
+-- The channels you want the bot to join.  You can have it join as many
+-- as you want.
+CHANNELS = {'#aaaaa', '#bbbbb'}
